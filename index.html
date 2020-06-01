@@ -52,7 +52,7 @@ body, html {
   }
 /* Set thumbnail image size */
 .your-thumbnail{
-	float: center;
+	float: left;
 	width:295px;
 	height:295px;
 	background-size: cover;
@@ -166,7 +166,9 @@ body, html {
 	</div>
 	
 	<div class="w3-col m4">
-		<div class="your-thumbnail" style="background-image:url('./BristolImages/kingsdownPrade.jpg');" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kingsdown Prade"></div>
+		<div class="your-thumbnail" style="background-image:url('./BristolImages/kingsdownPrade.jpg')";  src="./BristolImages/kingsdownPrade.jpg";>
+			<img src="./BristolImages/kingsdownPrade.jpg" style="width:100%" style="he onclick="onClick(this)" class="w3-hover-opacity" alt="Kingsdown Prade">
+		</div>
 	</div>
   </div>
 </div>
@@ -180,7 +182,7 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
+<!-- Third Parallax Image with Exhibitions Text and Link -->
 <div class="bgimg-3 w3-display-container w3-opacity-min" id="exhibitions">
   <a href="./Exhibitions.html">
 	<div class="w3-display-middle">
@@ -224,7 +226,7 @@ body, html {
 <script>
 // Modal Image Gallery
 function onClick(element) {
-  document.getElementById("img01").src = element.src;
+  document.getElementById("img01").src = element.src
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
