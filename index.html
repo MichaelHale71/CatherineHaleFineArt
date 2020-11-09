@@ -50,11 +50,13 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
-/*sort lightbox image shapes*/
-.pswp__img {
-    max-height: 100% !important;
-    width: auto !important;
 }
+/*lightbox boundingbox*/
+.bounding-box {
+  background-image: url("./rect12.png");
+  /*background-image: url("./BristolImages/kingsdownPradeRS.jpg");*/
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 </style>
 </head><body>
@@ -154,7 +156,11 @@ body, html {
 	</div>
 	
 	<div class="w3-col m4">
-		<img src="./BristolImages/kingsdownPradeRS.jpg" style="pswp__img" onclick="onClick(this)" class="w3-hover-opacity" alt="Kingsdown Prade">
+			<div class='bounding-box'>
+				<!--<img src="./rect101.png";>-->
+				<img src="./BristolImages/kingsdownPradeRS.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kingsdown Prade">
+			</div>
+		</div>
 	</div>
   </div>
 </div>
@@ -181,7 +187,7 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="contact">
 	<div class="w3-row w3-padding-32 w3-section">
 		<div class="w3-col m4 w3-container">
-			<img src="./Logo.jpg" class="w3-image w3-round" style="width:100%">
+			<img src="./Logo.jpg" class="w3-image" style="width:100%">
 		</div>
 		<div class="w3-col m8 w3-panel">
 			<div class="w3-display-center">
