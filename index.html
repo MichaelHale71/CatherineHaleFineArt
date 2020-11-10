@@ -53,10 +53,24 @@ body, html {
 }
 /*lightbox boundingbox*/
 .bounding-box {
-  background-image: url("./rect12.png");
+  /*background-image: url("./rect12.png");*/
   /*background-image: url("./BristolImages/kingsdownPradeRS.jpg");*/
-  background-repeat: no-repeat;
-  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+    padding-top: 100%; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    position: relative;
+    overflow: hidden;
+}
+
+.abs {
+        width: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 </style>
 </head><body>
@@ -158,7 +172,7 @@ body, html {
 	<div class="w3-col m4">
 			<div class='bounding-box'>
 				<!--<img src="./rect101.png";>-->
-				<img src="./BristolImages/kingsdownPradeRS.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kingsdown Prade">
+				<img src="./BristolImages/kingsdownPradeRS.jpg"  onclick="onClick(this)" class="w3-hover-opacity abs" alt="Kingsdown Prade">
 			</div>
 		</div>
 	</div>
