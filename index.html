@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- saved from url=(0063)./index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Catherine Hale Fine Art</title>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chemistry Physics and Maths Book Review</title>
 
 <!-- Google Analytics -->
 <script>
@@ -15,7 +15,7 @@ ga('send', 'pageview');
 <!-- End Google Analytics -->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/jpg" href="./Logo.jpg">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
 <link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
 <link rel="stylesheet" href="./Lato.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,9 +27,19 @@ body, html {
   line-height: 1.8;
 }
 
-.blackNavBar{
-	color: #000000}
-	
+.whiteNavBar{
+	color: #FFFFFF}
+
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
 /* Create a Parallax Effect */
 .bgimg-1, bgimg-2, bgimg-3{
  background-attachment: fixed;
@@ -40,7 +50,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("./CornwallImages/The_Beacon_St_Agnes_Title.jpg");
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
   min-height: 100%;
 }
 
@@ -50,7 +60,7 @@ body, html {
   min-height: 400px;
 }
 
-/* Third image (Exhibitions) */
+/* Third image (Exhibitions)
 .bgimg-3 {
   background-image: url("./ItalyImages/AronaManWorking.jpg");
   min-height: 400px;
@@ -72,7 +82,7 @@ body, html {
   /*background-image: url("./BristolImages/kingsdownPradeRS.jpg");*/
   /*background-repeat: no-repeat;*/
   /*background-size: contain;*/
-    padding-top: 100%; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    padding-top: 80.1; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
     position: relative;
     overflow: hidden;
 }
@@ -91,18 +101,21 @@ body, html {
 </head><body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top blackNavBar">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paint-brush"></i> PORTFOLIO</a>
-    <a href="./index.html#exhibitions" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>EXHIBITIONS</a> 
-    <a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    </a>
-  </div>
+<div class="w3-top whiteNavBar">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+		</a>
+	</div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
@@ -117,81 +130,59 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Catherine Hale </b><span class="w3-hide-small"> Fine Art</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Chemistry Physics and Maths</b><span class="w3-hide-small"> Book Review</span></span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center">I'm based in north Cornwall and work mainly in gouache and charcoal.</p>
-  <p>I previously lived, worked and exhibited in Northern Italy, and Bristol before that.  My work is inspired by ordinary, everyday scenes, which become significant in their familiar nature.
-    It could be a side street you always take a short cut through, a van parked up, graffiti on a railway arch or a jumble of rooftops.</p>
-  <p>Whatever it is I love these little nooks and crannies surrounding us, and they become the real focal points for my paintings – the extraordinary in the every day.</p>
-  <p>I sell original work and some limited edition prints, and take commissions.</p>
-  <h3 class="w3-center">COMMISSIONS</h3>
-  <p>I regularly carry out commissions for individuals and organisations. If you have a favourite place in mind just get in touch, and I'll work with you to get the perfect composition and really understand the meaning of the image to you. I work mainly from photographs and will take fresh shots myself and / or use your own images. I always visit the location in the flesh and provide a sketch or two along with the finished piece.
-   It's up to you to decide if you want the final painting simply mounted or framed.</p>
-</div>
-
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
+  <p class="w3-center">I am a chemist based in the UK who has a passion for learning science through reading science books.</p>
+  <p>Whilst I am primarily interested in chemistry, I  also study physics and maths at undergraduate level and hope to 
+  advance these areas in certain directions beyond the undergraduate curriculum. I hope you find my reviews helpful and entertaining.
+  </p>
+  <p>If you want to get in touch to discuss any aspect of my reviews or to recommend a book please feel free to email me at the 
+  address at the bottom of this page.</p>
+  <p>Happy reading,</p>
+  <p>GPE</p>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Click on the images to view the paintings</em></p>
+  <h3 class="w3-center">THE REVIEWS</h3>
+  <p class="w3-center"><em>Click on the images to see the reviews</em></p>
 
   <!-- Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center w3-content">
     <div class="w3-col m4 w3-display-container w3-opacity-min">
-		<a href="./Cornwall.html">
-				<img src="./CornwallImages/WhealKittyLARGE.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cornwall">
-			<div class="w3-display-middle">
-				<span class="w3-xlarge w3-text-white w3-wide">CORNWALL</span>
+		<a href="./Chemistry.html">
+			<img src="./cmpBooksImages/NMRrobot.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cornwall">
+		<div class="w3-display-middle">
+				<span class="w3-xlarge w3-text-white w3-wide">CHEMISTRY</span>
 			</div>
 		</a>
 	</div>
 
       <div class="w3-col m4 w3-display-container w3-opacity-min">
-		<a href="./Italy.html">
-			<img src="./ItalyImages/LavenoFerryCropped.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Italy">
+		<a href="./Physics.html">
+			<img src="./cmpBooksImages/ATLASImage.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Italy">
 			<div class="w3-display-middle">
-				<span class="w3-xlarge w3-text-white w3-wide">ITALY</span>
+				<span class="w3-xlarge w3-text-white w3-wide">PHYSICS</span>
 			</div>
 		</a>
 	</div>
 
       <div class="w3-col m4 w3-display-container w3-opacity-min">
-		<a href="./Bristol.html">
-				<img src="./BristolImages/cliftonSuspensionBridge.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bristol">
-			<div class="w3-display-middle">
-				<span class="w3-xlarge w3-text-white w3-wide">BRISTOL</span>
-			</div>
-		</a>
-	</div>
-  </div>
-	<div class="w3-row-padding w3-center w3-section">
-		<div class="w3-col m4">
-				<img src="./CornwallImages/PorthtowanRedVan.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Porthtowan Red Van">
-		</div>
-	
-	<div class="w3-col m4">
-			<img src="./ItalyImages/CerroBAR.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cerro BAR">
-	</div>
-	
-	<div class="w3-col m4">
-			<div class='bounding-box'>
-				<img src="./BristolImages/kingsdownPrade.jpg"  onclick="onClick(this)" class="w3-hover-opacity abs" alt="Kingsdown Prade">
-			</div>
-		</div>
-	</div>
-  </div>
+        <div class='bounding-box'>
+		       <a href="./Maths.html">
+				      <img src="./cmpBooksImages/PonsAsinorum.png" style="height:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bristol">
+			          <div class="w3-display-middle">
+				          <span class="w3-xlarge w3-text-black w3-wide">MATHS</span>
+			          </div>
+		       </a>
+          </div>
+        </div>
+      </div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -203,21 +194,12 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Exhibitions Text and Link -->
-<div class="bgimg-3 w3-display-container w3-opacity-min" id="exhibitions">
-  <a href="./Exhibitions.html">
-	<div class="w3-display-middle">
-		<span class="w3-xxlarge w3-text-white w3-wide">EXHIBITIONS</span>
-		<p class="w3-center w3-text-white"><em>Click to view details</em></p>
-	</div>
-  </a>
-</div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
 	<div class="w3-row w3-padding-32 w3-section">
 		<div class="w3-col m4 w3-container">
-			<img src="./Logo.jpg" class="w3-image" style="width:100%">
+			<img src="./Flask.png" class="w3-image" style="width:100%">
 		</div>
 		<div class="w3-col m8 w3-panel">
 			<div class="w3-display-center">
@@ -225,10 +207,9 @@ body, html {
 			</div>
 			<div class="w3-large w3-margin-bottom w3-cell-middle">
 				<br>
-				<i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-left"></i> Porthtowan, Cornwall. UK<br>
-				<i class="fa fa-envelope fa-fw w3-xlarge w3-margin-left"></i> Email: cathhale@hotmail.co.uk<br>
+				<i class="fa fa-envelope fa-fw w3-xlarge w3-margin-left"></i> Email: gpe0p207@outlook.com<br>
 				<br>
-				<p class="w3-margin-left">Please do get in touch if you’d like to discuss an idea for a commission, buy an original or print, or some other aspect of my work.</p>
+				<p class="w3-margin-left">Please do get in touch if you’d like to discuss any aspect of my work.</p>
 			</div>
 		</div>
    </div>
@@ -237,10 +218,11 @@ body, html {
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="./index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="https://www.instagram.com/Catherine.hale.art/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/catherine-hale-b155068" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
+<p><h3>Image Credits</h3></p>
+<p>Saturn Look Back - NASA/JPL</p>
+<p>NMR Robot - Science.eus</p>
+<p>ATLAS Dectector - CERN</p>
+<p>Pons Asinorum - Wikipedia</p>
 <!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
 </footer>
  
